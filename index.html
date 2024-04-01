@@ -20,13 +20,17 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
       rel="stylesheet"
     />
+
     <link href="./css/styles.css" rel="stylesheet" />
+    <!-- Inne meta tagi -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Praca domowa 6</title>
   </head>
 
   <body>
     <header class="page-header">
+      <!-- menu dla destop + tablet-->
       <div class="menu-desktop">
         <div class="page container">
           <nav class="menu">
@@ -69,10 +73,17 @@
       <!--menu dla mobile-->
       <div class="menu mobile">
         <a class="logo" href="./index.html"
-          >Web<span class="logo2">Studio</span></a>
+          >Web<span class="logo2">Studio</span></a
+        >
+        <!--hamburger dla menu mobile-->
+        <div class="hamburger" id="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+
         <div class="is-open">
           <div class="modal-menu">
-            
             <button type="button" class="btn-x btn-x-menu">
               <svg class="close-svg close-menu" width="8" height="8">
                 <use
@@ -83,7 +94,9 @@
             <nav>
               <ul class="menu-list-mobile">
                 <li class="list-navigation-mobile">
-                  <a href="./index.html" class="navigation-mobile">Studio</a>
+                  <a href="./index.html" class="navigation-mobile radius"
+                    >Studio</a
+                  >
                 </li>
                 <li class="list-navigation-mobile">
                   <a href="" class="navigation-mobile">Portfolio</a>
@@ -97,7 +110,7 @@
             <address class="contacts-mobile">
               <ul class="contacts-list-mobile">
                 <li class="list-item-mobile">
-                  <a class="contacts-one-mobile" href="tel:+110001111111"
+                  <a class="contacts-one-mobile radius" href="tel:+110001111111"
                     >+11 (000) 111-11-11</a
                   >
                 </li>
@@ -111,7 +124,7 @@
               </ul>
             </address>
             <div class="from-footer">
-              <ul class="social-media-list-footer">
+              <ul class="social-media-list-footer-mobile">
                 <li class="icon-list-footer">
                   <a href="" class="icon-third">
                     <svg class="icon-footer" width="24" height="24">
@@ -146,7 +159,8 @@
         </div>
       </div>
     </header>
-     <main>
+
+    <main>
       <section class="section-one">
         <div class="container container-one-heading">
           <h1 class="section-one-heading">
@@ -641,6 +655,8 @@
         </div>
       </div>
     </footer>
+    <!--
+    schowany modal
     <div class="on-off">
       <div class="window">
         <button type="button" class="btn-x">
@@ -739,5 +755,6 @@
         </form>
       </div>
     </div>
+    -->
   </body>
 </html>
