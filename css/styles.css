@@ -382,7 +382,7 @@ footer {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-.end {
+.finish {
   padding: 100px 0;
 }
 .logo-link {
@@ -929,7 +929,7 @@ footer {
     gap: 40px;
     justify-content: center;
   }
-  .end {
+  .finish {
     padding: 96px 0;
   }
   .radius {
@@ -945,10 +945,6 @@ footer {
       url(../images/background-image/Dark-bg\(2\).jpg);
 
     min-width: 758px;
-  }
-
-  .hamburger {
-    display: none;
   }
   .menu-desktop {
     display: block;
