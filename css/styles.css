@@ -942,7 +942,7 @@ footer {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/workers/Dark-bg\(2\).jpg);
+      url(../images/background-image/Dark-bg\(2\).jpg);
 
     min-width: 758px;
   }
@@ -1043,7 +1043,7 @@ footer {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/workers/Dark-bg\(3\).jpg);
+      url(../images/background-image/Dark-bg\(3\).jpg);
 
     min-width: 758px;
   }
@@ -1054,7 +1054,7 @@ footer {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-desktop/people1.jpg);
+      url(../images/peopleingroup/people1.jpg);
     padding: 188px 0;
     max-width: 1440px;
   }
@@ -1159,6 +1159,6 @@ footer {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/peoplein/people2.jpg);
+      url(../images/peopleingroup/people2.jpg);
   }
 }
