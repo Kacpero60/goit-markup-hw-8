@@ -52,7 +52,7 @@ p {
 .is-open {
   display: none;
 }
-.navigation {
+.classcontact {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
@@ -154,8 +154,7 @@ p {
 .section-one-heading {
   color: #ffffff;
   font-weight: 700;
-  /* ustawienie na destop
-  font-size: 56px;*/
+  /*font-size: 56px;*/
   font-size: 36px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -297,9 +296,7 @@ footer {
 }
 
 .container {
-  /* 
-  Ustawienoia dla desktopu
-  width: 1158px;
+  /*width: 1158px;
   margin: 0 auto; */
   padding: 0 16px;
 }
@@ -368,7 +365,7 @@ footer {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.name {
+.groupname {
   padding: 32px 0px;
   min-width: 264px;
 }
@@ -830,7 +827,7 @@ footer {
 }
 
 @media (min-width: 320px) and (max-width: 757px) {
-  .menu-desktop {
+  .firstmenu {
     display: none;
   }
   .logo {
