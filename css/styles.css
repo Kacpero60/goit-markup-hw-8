@@ -1048,14 +1048,13 @@ footer {
     min-width: 758px;
   }
 }
-
 @media (min-width: 1158px) {
   .section-one {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-desktop/people1.jpg);
+      url(../images/peopleingroup/people1.jpg);
     padding: 188px 0;
     max-width: 1440px;
   }
@@ -1160,6 +1159,6 @@ footer {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-desktop/people2.jpg);
+      url(../images/peopleingroup/people2.jpg);
   }
 }
